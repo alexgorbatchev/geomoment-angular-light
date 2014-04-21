@@ -1,15 +1,16 @@
 {
-  "name": "geomoment-angular",
-  "version": "0.9.3",
+  "name": "geomoment-angular-light",
+  "version": "1.0.0",
   "description": "An angular module for date formatting; wraps geomoment. For use with browserify.",
   "main": "lib/index.js",
   "scripts": {
     "test": "karma start spec/karma.config.coffee",
-    "pretest": "./node_modules/.bin/coffee --bare --compile --output lib/ src/ && ./node_modules/.bin/browserify lib/index.js > geomoment-angular.js && ./node_modules/.bin/uglifyjs geomoment-angular.js > geomoment-angular.min.js"
+    "pretest": "./node_modules/.bin/coffee --bare --compile --output lib/ src/ && ./node_modules/.bin/browserify lib/index.js > geomoment-angular-light.js && ./node_modules/.bin/uglifyjs geomoment-angular-light.js > geomoment-angular-light.min.js"
+
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/goodeggs/geomoment-angular.git"
+    "url": "https://github.com/alexgorbatchev/geomoment-angular-light.git"
   },
   "keywords": [
     "moment",
@@ -24,10 +25,10 @@
   "author": "Max Edmands <git@maxedmands.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/goodeggs/geomoment-angular/issues"
+    "url": "https://github.com/alexgorbatchev/geomoment-angular-light/issues"
   },
   "dependencies": {
-    "geomoment": "git+ssh://git@github.com:goodeggs/geomoment.git#patch-2"
+    "geomoment-light": "^1.0.0"
   },
   "devDependencies": {
     "mocha": "~1.15.1",

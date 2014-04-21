@@ -1,6 +1,8 @@
-# geomoment-angular
+# geomoment-angular-light
 
-An [angular.js](http://angularjs.org/) module for date formatting with explicit timezones; wraps [geomoment](https://github.com/goodeggs/geomoment).
+An [angular.js](http://angularjs.org/) module for date formatting with explicit timezones; wraps [geomoment-light](https://github.com/alexgorbatchev/geomoment-light).
+
+**THIS IS A FORK** of the original [geomoment-angular](https://github.com/goodeggs/geomoment-angular) that doesn't compile moment.js library in.
 
 # Installation
 
@@ -8,8 +10,8 @@ An [angular.js](http://angularjs.org/) module for date formatting with explicit 
 <script src="angular.js" />
 <script src="moment.js" />
 <script src="moment-timezone.js" />
-<script src="geomoment.js" />
-<script src="geomoment-angular.js" />
+<script src="geomoment-light.js" />
+<script src="geomoment-angular-light.js" />
 ```
 
 ## Examples

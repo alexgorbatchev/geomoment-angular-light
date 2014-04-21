@@ -18,9 +18,9 @@ module.exports = (config) ->
       'spec/angular.js',
       'spec/angular-mocks.js',
 
-      'node_modules/geomoment/geomoment.min.js'
+      'node_modules/geomoment-light/geomoment-light.min.js'
 
-      'geomoment-angular.js',
+      'geomoment-angular-light.js',
 
       'spec/*.spec.coffee'
     ]
